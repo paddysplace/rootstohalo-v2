@@ -28,7 +28,7 @@ twitter_username: fromrootstohalo
 instagram_username:  fromrootstohalo
 
 # Build settings
-theme: minima
+theme: minimal-mistakes-jekyll
 plugins:
   - jekyll-feed
 
