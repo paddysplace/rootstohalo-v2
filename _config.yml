@@ -30,7 +30,7 @@ twitter_username: fromrootstohalo
 instagram_username:  fromrootstohalo
 
 # Build settings
-theme: jekyll-theme-basically-basic
+theme: minima
 plugins:
   - jekyll-feed
 
