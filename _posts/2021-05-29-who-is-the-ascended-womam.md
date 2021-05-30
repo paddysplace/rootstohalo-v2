@@ -3,7 +3,9 @@ layout: post
 title:  "Who is the Ascended Woman?"
 date:   2021-05-29 16:44:01 +
 categories: personal
+
 ---
+
 We all are. Well we can be.
 
 Ascended Woman is my ‘stage name’ formulated from a Tarot reading after pulling the reversed Hanged Man. It seemed to fit in a way where I was enlightened to share my path, to help others along the difficult journey that we call life. Ascension is something a lot of us try to achieve in one way or another. To be above everyone else.
