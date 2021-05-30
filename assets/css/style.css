@@ -75,8 +75,9 @@ margin-right: auto;
   }
   
   
-  a:hover {
-    border-bottom: 1px solid;
-    background: #5a6ba3;
+  #disqus_thread  {
+    color: black;
+    background-color: white;
   }
-  
+  #disqus_thread a {
+    color: red;
