@@ -3,9 +3,20 @@ layout: default
 ---
 
 <div class="home">
-  {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
+  {% for post in site.posts %}
+  <h1>  <a href="{{ post.permalink }}">{{ post.title }}</a> </h1>
+    <p>{{ post.excerpt }}</p><a href="{{ post.permalink }}">read more</a>
+  
+{% endfor %}
+
+  <!--<ul>
+    {% for post in site.posts %}
+      <li>
+        <a href="{{ post.permalink }}">{{ post.title }}</a> 
+        <p>{{ post.excerpt }}</p>
+      </li>
+    {% endfor %}
+  </ul>-->
 
 
   {{ content }}

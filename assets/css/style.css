@@ -11,8 +11,11 @@ body{
 #showcase {
     background-image: url("../img/pexels-jeremy-bishop-2422916-01.jpg");
     background-size: cover;
-    background-position: center;
-    height: 60vh;
+    background-position: top;
+    height: 100vh;
+    margin-top: 55px;
+    margin-left: 150px;
+    margin-right: 150px;
   }
 
 .nav {
