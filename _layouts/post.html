@@ -25,6 +25,14 @@ layout: default
 <div id="disqus_thread">
     {% include  disqus.html %}
 </div>
+more posts...
+<ul>
+    {% for post in site.posts %}
+      <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
 
 </body>
 </html>
