@@ -83,7 +83,10 @@ body{
   }
   #disqus_thread a {
     color: red;
+  }
 
-.social{
-    
-}
+    .latest-list{
+      padding: 0;
+      margin: 0;
+      line-height: 0.4em;
+    }
