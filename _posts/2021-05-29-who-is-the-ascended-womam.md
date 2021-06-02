@@ -6,8 +6,9 @@ categories: personal
 
 ---
 
-<h4>We all are. Well we can be.</h4>
-<p>Ascended Woman is my ‘stage name’ formulated from a Tarot reading after pulling the reversed Hanged Man. It seemed to fit in a way where I was enlightened to share my path, to help others along the difficult journey that we call life. Ascension is something a lot of us try to achieve in one way or another. To be above everyone else.</p>
+<p>We all are. Well we can be.</p>
+
+<p>Ascended Woman is my ‘stage name’ formulated from a Tarot reading after pulling the reversed Hanged Man. It seemed to fit in a way where I was enlightened to share my path, to help others along the difficult journey that we call life. Ascension is something a lot of us try to achieve in one way or another. To be above everyone else.</p><!--more-->
 
 <p>But I found the beauty comes not from being above, but below. Amongst the roots. A interconnected messy system that sits below the surface, nourishing us with everything we need. Understanding that we’re all part of a wondrous eco system and the strength lies at the base of the person. From learning who we are and where we fit in with the universe is where we find our Halo.</p>
 

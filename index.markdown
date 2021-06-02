@@ -16,7 +16,7 @@ layout: default
 </head>
 
 <h3>Latest Post</h3>
-<h5>click title to comment</h5>
+     <h2> <a href="{{ post.url }}">{{ post.title }}</a></h2>
 
   <ul>
     {% for post in site.posts limit:1 %}
