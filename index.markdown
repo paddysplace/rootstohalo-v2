@@ -16,6 +16,8 @@ layout: default
 </head>
 
 <h3>Latest Post</h3>
+<h5>click title to comment</h5>
+
   <ul>
     {% for post in site.posts limit:1 %}
      <h2> <a href="{{ post.url }}">{{ post.title }}</a></h2>
@@ -25,8 +27,8 @@ layout: default
   <hr>
 <br>
 <div class="latest-list">
-  <h4>Recent Posts</h4>
+  <!--<h4>Recent Posts</h4>
   {% for post in site.posts limit:5 %}
           <h3> <a href="{{ post.url }}">{{ post.title }} </a></h3>
-{% endfor %}
+{% endfor %}-->
 </div>

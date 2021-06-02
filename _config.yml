@@ -49,5 +49,6 @@ plugins:
 #   - vendor/ruby/
 
 paginaion: 5
+excerpt_separator: <!--more-->
 
 disqus_shortname: rootstohalo
