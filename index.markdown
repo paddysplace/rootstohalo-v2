@@ -26,7 +26,7 @@ layout: default
 </a></h3>
     {% endfor %}
   </ul>
-<br>
+
 <div class="latest-list">
   <!--<h4>Recent Posts</h4>
   {% for post in site.posts limit:5 %}
