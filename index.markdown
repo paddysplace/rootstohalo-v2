@@ -26,7 +26,6 @@ layout: default
 </a></h3>
     {% endfor %}
   </ul>
-  <hr>
 <br>
 <div class="latest-list">
   <!--<h4>Recent Posts</h4>

@@ -13,14 +13,13 @@ body{
     background-size: cover;
     background-position: center;
     height: 75vh;
-    margin-top: 55px;
+    margin-top: 50px;
   }
 
 .nav {
     height: 50px;
     width: 100%;
     position: relative;
-    background-color: rgba(0, 0, 0, 0.3);
     z-index: 1000;
   }
   
@@ -40,8 +39,8 @@ body{
       display: inline;
       float: right;
       font-size: 18px;
-      background-color: rgba(0, 0, 0, 0.3);
       width: 100%;
+      background-color: #e0f9dc;
     }
     
     .nav > .nav-links > a {
@@ -67,7 +66,7 @@ body{
     display: inline-block;
     padding: 13px 10px 13px 10px;
     text-decoration: none;
-    color: white;
+    color: black;
   }
   
   .nav > .nav-links > a:hover {
@@ -97,11 +96,15 @@ body{
 
     .footer-links{
       display: flex;
-      padding-left: 10px;
-      margin-left: 20px;
+      padding: 10px 20px;
+      text-align: center;
+      align-self: center;
+
     }
 
     .search-box{
       padding-right: 20px;
     
     }
+
+    
