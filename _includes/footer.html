@@ -7,17 +7,29 @@
     <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
-    <section class="footer-links">
+    <div class="grid-container">
         
-<div class="search-box"> <form action="/search.html" method="get">
-    <label for="search-box">Search</label>
-    <input type="text" id="search-box" name="query">
-    <input type="submit" value="search">
-  </form></div>
-    <div class="copy">
-        <h4>&copy fromrootstohalo 2021</h4>
-    </div>
-   
-    </section>
+        <div class="signUp">
+            <form name="signUp" action="https://api.follow.it/subscription-form/c3NQbkZ1a3hMdWNpek1TV21qN2FHWkZENHZxTjBmRGdtRWpwSllJYzBYdnl6WTFKanArNlFCTzhUTHhJWWJRbWJnZytlbnBIK3JwQnFlb1E5UGJuR2lCNm9QSnU1YUlaeGN0clVydC90eWN3Z2hMdzhUK0VGaGhrN1dFZHJxdFN8a3FpQnBiQXNENTBGeDRWL2MrSlhFRktLRXA2TGI0NjBKSjJIN1pZM3B0Zz0=/8" method="post" data-netlify="true">
+                <label><i class="fas fa-rss-square"></i> <input type="email" name="email" placeholder="get post by email"/></label>
+                <button id="btn" type="submit">Send</button>
+              </form>
+        </div>
+
+        <div class="search-box">
+            <form action="/search.html" method="get">
+                <label for="search-box"><i class="fas fa-search"></i></label>
+                <input type="text" id="search-box" name="query" placeholder="search site">
+                <input type="submit" value="search">
+            </form>
+        </div>
+
+        <div class="copyright">
+            <h4>&copy fromrootstohalo 2021</h4>
+
+        </div>
+      </div>
+
+       
 </body>
 </html>
