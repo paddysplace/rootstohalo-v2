@@ -6,7 +6,6 @@ excerpt_separator: <!--more-->
     {% for post in site.posts %}
       <li>
         <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>{{post.date | date_to_string | date: "%b. %d, %Y"}}
-       <p>Reading Time: {% include reading_time.html %}</p>
         {{ post.excerpt }}<a href="{{ post.url }}">Read more...</a>
 
       </li>

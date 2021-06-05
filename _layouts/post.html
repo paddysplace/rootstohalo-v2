@@ -14,7 +14,8 @@ layout: default
 <article id="post-page" >
     {% include navigation.html %}
     <a href=""><h2>{{ page.title }}</h2></a>
-    
+    <p>Reading Time: {% include reading_time.html %}</p>
+
 
     <time>{{ page.date | date_to_string }}</time>
     <div class="content" >

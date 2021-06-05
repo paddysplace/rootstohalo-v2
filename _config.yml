@@ -50,3 +50,4 @@ plugins:
 
 excerpt_separator: <!--more-->
 disqus_shortname: rootstohalo
+paginate: 5
