@@ -20,7 +20,7 @@ layout: default
 
   <ul>
     {% for post in site.posts limit:1 %}
-     <h2> <a href="{{ post.url }}#disqus_thread">{{ post.title }}</a></h2>
+     <h2> {{ post.title }}</h2>
       <p>{{post.content}}</p>
       <h3> <a href="{{ post.url }}#disqus_thread"><p>click here to comment</p>
 </a></h3>
