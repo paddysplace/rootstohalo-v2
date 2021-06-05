@@ -222,7 +222,7 @@ form.example button {
   border-left: none; /* Prevent double borders */
   cursor: pointer;
 }
-
+/*
 form.example button:hover {
   background: #3d5c38;
 }
@@ -233,7 +233,7 @@ form.example::after {
   clear: both;
   display: table;
 }
-
+/*
 .container {
 	max-width:500px;
 	width:100%;
@@ -328,4 +328,4 @@ fieldset {
  color:#888;
 }
 
-
+*/

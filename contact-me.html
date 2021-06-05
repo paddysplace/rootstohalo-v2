@@ -14,52 +14,58 @@ permalink: /contact/
     <title>From Roots To Halo - Contact Me</title>
 </head>
 
+
+<form name="contact" method="POST" data-netlify="true">
+  <p>
+    <label>Your Name: <input type="text" name="name" /></label>   
+  </p>
+  <p>
+    <label>Your Email: <input type="email" name="email" /></label>
+  </p>
+  <p>
+    <label>Your Role: <select name="role[]" multiple>
+      <option value="leader">Leader</option>
+      <option value="follower">Follower</option>
+    </select></label>
+  </p>
+  <p>
+    <label>Message: <textarea name="message"></textarea></label>
+  </p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
+</form>
+
 <!--OLD Contact Form
-<h2>Contact Me</h2>
-<div class="contact-info">
-    <form name="contact" method="POST" data-netlify="true">
-        <p>
-          <label><input type="text" name="name" placeholder="name"/></label>   
-        </p>
-        <p>
-          <label><input type="email" name="email" placeholder="email" /></label>
-        </p>
-        <p>
-          <label><textarea name="message"></textarea></label>
-        </p>
-        <p>
-          
-          <button id="button" type="submit"><i class="fas fa-sign-in-alt"></i></button>
-        </p>
-    </form>-->
+
+<form name="contact" method="POST" action="/success.html" data-netlify="true" >
+  <p>
+    <label>Your Name: <input type="text" name="name" /></label>   
+  </p>
+  <p>
+    <label>Your Email: <input type="email" name="email" /></label>
+  </p> 
+  
+  <p>
+    <label>Message: <textarea name="message"></textarea></label>
+  </p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
+</form>
 
 
 
-<div class="container">  
-    <form id="contact" action="" method="post">
-      <h3>Quick Contact</h3>
-      <h4>Contact us today, and get reply with in 24 hours!</h4>
-      <fieldset>
-        <input placeholder="Your name" type="text" tabindex="1" required autofocus>
-      </fieldset>
-      <fieldset>
-        <input placeholder="Your Email Address" type="email" tabindex="2" required>
-      </fieldset>
-      
-        <textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
-      </fieldset>
-      <fieldset>
-        <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
-      </fieldset>
-    </form>
 
-<!--Contact-->
+
+
+Contact
 
 
 <section class="contact-addresses">
       <h4><a href=""><i class="far fa-envelope"></i> aw@fromrootstohalo.com</a></h4>
       <h4><i class="fab fa-instagram"></i></i> fromrootstohalo</h4>
     </section>
-  </div>
+  </div>-->
 
-  
+  <script src="/assets/js/script.js"></script>
