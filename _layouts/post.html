@@ -13,14 +13,14 @@ layout: default
     
 <article id="post-page" >
     {% include navigation.html %}
-    <a href=""><h2>{{ page.title }}</h2></a>
+    <h2>{{ page.title }}</h2>
     <p>Reading Time: {% include reading_time.html %}</p>
 
 
     <time>{{ page.date | date_to_string }}</time>
     <div class="content" >
         <br>
-            {{ content }}
+           {{ content }}
     </div>
     <hr>
 </article>
@@ -28,15 +28,6 @@ layout: default
 <div id="disqus_thread" class="comment">
     {% include  disqus.html %}
 </div>
-more posts...
-<ul>
-    {% for post in site.posts %}
-      <li>
-        <a href="{{ post.url }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-
-  </ul>
 
 </body>
 </html>

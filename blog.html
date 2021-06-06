@@ -5,8 +5,8 @@ excerpt_separator: <!--more-->
 <ul>
     {% for post in site.posts %}
       <li>
-        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>{{post.date | date_to_string | date: "%b. %d, %Y"}}
-        {{ post.excerpt }}<a href="{{ post.url }}">Read more...</a>
+        <h3>{{ post.title }}</h3>{{post.date | date_to_string | date: "%b. %d, %Y"}}
+        {{ post.excerpt }}<a href="{{ post.url }}" > <p class="callToAction">Read more <i class="fas fa-arrow-circle-right"></i></p></a>
 
       </li>
       <hr><br>

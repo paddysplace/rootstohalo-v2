@@ -1,15 +1,9 @@
-
-
 .contact-addresses{
   color: #3d5c38;
 }
+
 *{
   box-sizing: border-box;
-}
-
-
-h1, h2, h3, h4{
-  color: #3d5c38;
 }
 
 body{
@@ -23,58 +17,6 @@ body{
     height: 75vh;
     margin-top: 0px;
   }
-
-/* OLD NAVIGATION 
-.nav {
-    height: 50px;
-    width: 100%;
-    position: relative;
-    z-index: 1000;
-  }
- h1, h2, a{
-   color: #7a7a7a;
- }
-    .nav {
-      height: 50px;
-      width: 100%;
-      opacity: 75%;
-      position: relative;
-    }
-    .nav > .nav-links {
-      display: inline;
-      float: right;
-      font-size: 18px;
-      width: 100%;
-      background: rgb(184,242,174);
-      background: linear-gradient(180deg, rgba(184,242,174,1) 0%, rgba(224,249,220,1) 100%);    }
-    .nav > .nav-links > a {
-      display: inline-block;
-      padding: 13px 10px 13px 10px;
-      text-decoration: none;
-      color: #efefef;
-    }
-    .nav > .nav-links > a:hover {
-      background-color: rgba(0, 0, 0, 0.4);
-    }
-  .nav > .nav-links {
-    display: inline;
-    float: left;
-    font-size: 20px;
-  }
-  .nav > .nav-links > a {
-    display: inline-block;
-    padding: 13px 10px 13px 10px;
-    text-decoration: none;
-    color: black;
-  }
-  .nav > .nav-links > a:hover {
-    background-color: rgba(0, 0, 0, 0.3);
-  }
-  .nav{
-      background-color: rgba(0, 0, 0, 0.3);
-  }  */
-
-  /* NEW NAVIGATION */
 
   /* Add a black background color to the top navigation */
 .topnav {
@@ -92,6 +34,7 @@ body{
   padding: 14px 16px;
   text-decoration: none;
   font-size: 1rem;
+  text-shadow: 2px 2px 5px #F96;
 }
 
 /* Add an active class to highlight the current page */
@@ -106,8 +49,7 @@ body{
 }
 
 a:hover{
-  background-color: rgba(0, 0, 0, 0.4);
-
+text-decoration-line: underline;
 }
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
@@ -328,3 +270,15 @@ fieldset {
  color:#888;
 }
 
+.callToAction {
+  color: #F96;
+}
+
+a:hover .callToAction{
+  text-decoration: underline;
+
+}
+
+a:link{
+  color: #F96;
+}
