@@ -280,9 +280,7 @@ a:hover .callToAction{
 
 }
 
-a:link{
-  color: #F96;
-}
+
 
 /* CONTACT FORM */
 @import url('https://fonts.googleapis.com/css?family=Montserrat:700');@import url('https://fonts.googleapis.com/css?family=Montserrat:400');
@@ -358,4 +356,6 @@ a:link{
                 .btn a:hover{
                   color: #F96;
 
+                
                 }
+                
