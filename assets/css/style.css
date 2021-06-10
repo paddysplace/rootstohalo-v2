@@ -1,5 +1,18 @@
+:root {
+  --bg-color-h: 112;
+  --bg-color-s: 71%;
+  --bg-color-l: 92%;
+  --bg-color: hsl(var(--bg-color-h), var(--bg-color-s), var(--bg-color-l));
+  --btn-color-h: 112;
+  --btn-color-s: 24%;
+  --btn-color-l: 29%;
+  --btn-color: hsl(var(--btn-color-h), var(--btn-color-s), var(--btn-color-l));
+}
+
+
+
 .contact-addresses{
-  color: #3d5c38;
+  color: hsl(112, 71%, 92%);
 }
 
 *{
@@ -7,7 +20,7 @@
 }
 
 body{
-    background-color: #e0f9dc;
+    background-color: var(--bg-color);
 }
 
 #showcase {
@@ -31,7 +44,7 @@ body{
 .topnav a {
   float: left;
   display: block;
-  color: #3d5c38;
+  color: hsl(112, 24%, 29%);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -93,7 +106,7 @@ text-decoration-line: underline;
     background-color: #e0f9dc;
   }
   #disqus_thread a {
-    color: red;
+    color: #F96;
   }
 
     .latest-list{
@@ -238,7 +251,7 @@ fieldset {
 	cursor:pointer;
 	width:100%;
 	border:none;
-	background:#3d5c38;
+	background: var(--btn-color);
 	color:#FFF;
 	margin:0 0 5px;
 	padding:10px;
@@ -358,4 +371,6 @@ a:hover .callToAction{
 
                 
                 }
-                
+                .active{
+                  color: blue;
+                }
