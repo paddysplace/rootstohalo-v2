@@ -26,7 +26,9 @@ body{
     background-size: cover;
     background-position: center;
     height: 75vh;
-    margin-top: 0px;
+    margin-top: 3px;
+    box-shadow: 0 8px 6px -6px black;
+
   }
 
 /* NAV BAR */
@@ -36,6 +38,7 @@ body{
   background: rgb(184,242,174);
   background: linear-gradient(180deg, rgba(184,242,174,1) 0%, rgba(224,249,220,1) 100%);    
   overflow: hidden;
+
 }
 
 /* Style the links inside the navigation bar */
@@ -58,6 +61,7 @@ body{
 
 a:hover{
 text-decoration-line: underline;
+
 }
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
@@ -69,6 +73,7 @@ text-decoration-line: underline;
   .topnav a.icon {
     float: right;
     display: block;
+text-decoration:none;
   }
 }
 
@@ -149,9 +154,12 @@ text-decoration-line: underline;
   .footer-heading a:hover{
     color: #fff;
     transition: ease-out;
+
   }
 
   /* Style the search field */
+
+  
 form.example input[type=text] {
   padding: 10px;
   font-size: 17px;
@@ -159,6 +167,7 @@ form.example input[type=text] {
   float: left;
   width: 80%;
   background: #f1f1f1;
+  
 }
 
 /* Style the submit button */
@@ -391,6 +400,7 @@ padding-top: 20px;
 
 .copyright{
   padding-top: 20px;
+  
 }
 
 @media screen and (max-width: 600px) {
@@ -400,4 +410,15 @@ padding-top: 20px;
 }
 .footer{
   align-content: center;
+  text-align: center;
+}
+}
+
+/* Single-direction drop shadow */
+
+hr.footer-line {
+  margin: 0 5%;
+  height: 12px;
+  border: 0;
+  box-shadow: inset 0 12px 12px -16px rgba(0, 0, 0, 0.5);
 }
