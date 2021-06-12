@@ -8,6 +8,7 @@ layout: default
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/build.css">
 </head>
 <body>
     
@@ -25,13 +26,12 @@ layout: default
     <hr class="footer-line">
 </article>
 <!--COMMENT SECTION-->
-<script src="https://utteranc.es/client.js"
-        repo="rootstohalo-v2"
-        issue-term="pathname"
-        theme="preferred-color-scheme"
-        crossorigin="anonymous"
-        async>
+<div id="comments"></div>
+<script>
+window.rpc_host = 'https://rpc.dyuproject.com';
+window.comments_max_depth = 10; // max: 127
+window.comments_collapse_depth = 7; // the depth where comments get collapsed by default
 </script>
-
+<script src="/assets/js/build.js"></script>
 </body>
 </html>
