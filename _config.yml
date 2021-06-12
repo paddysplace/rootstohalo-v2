@@ -1,6 +1,6 @@
 description: All about me and my astrology.
 baseurl: ''
-url: 'htto://fromrootstohalo.com'
+url: 'http://fromrootstohalo.com'
 theme: minima
 plugins:
   - jekyll-feed
