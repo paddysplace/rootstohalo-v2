@@ -9,8 +9,6 @@
   --btn-color: hsl(var(--btn-color-h), var(--btn-color-s), var(--btn-color-l));
 }
 
-
-
 .contact-addresses{
   color: hsl(112, 71%, 92%);
 }
@@ -70,6 +68,7 @@ text-decoration-line: underline;
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {
     display: none;
+    
   }
   .topnav a.icon {
     float: right;
@@ -90,6 +89,7 @@ text-decoration-line: underline;
     display: block;
     text-align: left;
   }
+
   .topnav.responsive .dropdown {float: none;}
   .topnav.responsive .dropdown-content {position: relative;}
   .topnav.responsive .dropdown .dropbtn {
@@ -98,7 +98,6 @@ text-decoration-line: underline;
     text-align: left;
   }
 }
-
   
   /* COMMENTS */
   #disqus_thread  {
@@ -293,8 +292,6 @@ a:hover .callToAction{
 
 }
 
-
-
 /* CONTACT FORM */
 @import url('https://fonts.googleapis.com/css?family=Montserrat:700');@import url('https://fonts.googleapis.com/css?family=Montserrat:400');
                 .form-preview {
@@ -374,3 +371,37 @@ a:hover .callToAction{
                 .active{
                   color: blue;
                 }
+
+.footer-container{
+  display: flex;
+
+}
+
+.footer{
+  align-items: top;
+  line-height: 1.3rem;
+  margin: 0 auto;
+
+}
+
+.footer-heading{
+  display: flex;
+  margin: 0 auto;
+
+}
+.footer-3{
+padding-top: 20px;
+}
+
+.copyright{
+  padding-top: 20px;
+}
+
+@media screen and (max-width: 600px) {
+.footer-container, .footer-container{
+  display:flex;
+  flex-direction: column;
+}
+.footer{
+  align-content: center;
+}
