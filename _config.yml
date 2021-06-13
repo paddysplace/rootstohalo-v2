@@ -2,7 +2,7 @@ title: From Roots To Halo
 email: aw@fromrootstohalo.com
 description: All about me and my astrology.
 baseurl: ''
-url: 'http://fromrootstohalo.com'
+url: 'https://fromrootstohalo.com'
 theme: minima
 plugins:
   - jekyll-feed
