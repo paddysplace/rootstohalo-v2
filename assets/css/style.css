@@ -436,3 +436,15 @@ hr.footer-line {
 .archive-group a{
   color: #3d5c38;
 }
+
+.postInfo ul{
+  display: flex;
+  color: #888;
+  justify-content: space-between;
+  margin: auto;
+  padding-bottom: 10px;
+}
+
+.postInfo .postDate .readT{
+  justify-content: space-between;
+}

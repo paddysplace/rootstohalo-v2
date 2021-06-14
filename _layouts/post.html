@@ -14,10 +14,28 @@ layout: default
 <article id="post-page" >
     {% include navigation.html %}
     <h2>{{ page.title }}</h2>
-    <p>Reading Time: {% include reading_time.html %}</p>
+
+    <div class="postInfo">
+        <ul>
+            <li><i class="far fa-calendar-alt postDate"></i> {{ page.date | date_to_string }}</li>
+            <li><i class="fas fa-tags post-categories"></i>
+                {% if post %}
+                  {% assign categories = post.categories %}
+                {% else %}
+                  {% assign categories = page.categories %}
+                {% endif %}
+                {% for category in categories %}
+                <a class="callToAction"href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
+                {% unless forloop.last %}&nbsp;{% endunless %}
+                {% endfor %}
+              </li>
 
 
-    <time>{{ page.date | date_to_string }}</time>
+            <li><i class="far fa-clock readT"></i> Reading Time: {% include reading_time.html %}</li>
+        </ul>
+    </div>
+<hr>
+
     <div class="content" >
         <br>
            {{ content }}
