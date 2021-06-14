@@ -9,6 +9,9 @@
   --btn-color: hsl(var(--btn-color-h), var(--btn-color-s), var(--btn-color-l));
 }
 
+p{
+  line-height: 1.3rem;
+}
 .contact-addresses{
   color: hsl(112, 71%, 92%);
 }
@@ -437,6 +440,10 @@ hr.footer-line {
   color: #3d5c38;
 }
 
+.postInfo{
+  color: #888;
+}
+
 .postInfo ul{
   display: flex;
   color: #888;
@@ -447,4 +454,21 @@ hr.footer-line {
 
 .postInfo .postDate .readT{
   justify-content: space-between;
+}
+
+.card-reverse{
+  display: block;
+  transform: rotate(180deg);
+  max-width: 300px;
+  height: auto;
+  margin: auto;
+  padding: 0px;
+  box-shadow: 1px 1px 4px;
+}
+
+.card{
+  display: block;
+  max-width: 300px;
+  height: auto;
+  margin: auto;
 }

@@ -25,13 +25,13 @@ layout: default
                   {% assign categories = page.categories %}
                 {% endif %}
                 {% for category in categories %}
-                <a class="callToAction"href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
+                <a class="callToAction"href="{{site.baseurl}}/search/#{{category|slugize}}">{{category}}</a>
                 {% unless forloop.last %}&nbsp;{% endunless %}
                 {% endfor %}
               </li>
 
 
-            <li><i class="far fa-clock readT"></i> Reading Time: {% include reading_time.html %}</li>
+            <li><i class="far fa-clock readT"></i> Read In: {% include reading_time.html %}</li>
         </ul>
     </div>
 <hr>
