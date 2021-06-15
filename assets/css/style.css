@@ -462,7 +462,8 @@ hr.footer-line {
   max-width: 300px;
   height: auto;
   margin: auto;
-  padding: 0px;
+  padding: 30px 20px 20px 20px;
+
 }
 
 .card{
@@ -470,4 +471,7 @@ hr.footer-line {
   max-width: 300px;
   height: auto;
   margin: auto;
+  padding: 30px 20px 20px 20px;
+
 }
+

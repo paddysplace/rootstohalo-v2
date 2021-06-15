@@ -5,7 +5,7 @@ permalink: /about/
 <h2>About Me</h2>
 <hr>
 
- <img class="card card-reverse" src="/assets/img/tarot-hanged-man.png" alt="">
+ <img class="card-reverse" src="/assets/img/tarot-hanged-man.png" alt="">
 
   <p>  Ascended Woman is my ‘stage name’ formulated from a Tarot reading after pulling the reversed Hanged Man. It seemed to fit in a way where I was enlightened to share my path, to help others along the difficult journey that we call life. Ascension is something a lot of us try to achieve in one way or another. To be above everyone else.</p>
 
