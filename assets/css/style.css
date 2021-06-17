@@ -377,10 +377,11 @@ a:hover .callToAction{
                 
                 }
                 .active{
-                  color: blue;
+                  color: #F96;
                 }
 
 .footer-container{
+  margin-top: 20px;
   display: flex;
 
 }
@@ -398,7 +399,7 @@ a:hover .callToAction{
 
 }
 .footer-3{
-padding-top: 20px;
+padding-top: 0px;
 }
 
 .copyright{
@@ -474,4 +475,34 @@ hr.footer-line {
   padding: 30px 20px 20px 20px;
 
 }
+/* MAIL FORM */
 
+#mc_embed_signup{
+  background-color: #fff;
+  box-shadow: 0 8px 6px -6px black;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 10px;
+  line-height: 1.3rem;
+
+}
+
+
+.mc-field-group{
+  font-size: 1 rem;
+  line-height: 1.5rem;
+}
+
+.button{
+  cursor: pointer;
+	background: var(--btn-color);
+  padding: 5px 15px;
+  border-radius: 5px;
+  margin: 10px auto;
+  color: white;
+}
+
+.button a:hover{
+  color: #000000;
+}
