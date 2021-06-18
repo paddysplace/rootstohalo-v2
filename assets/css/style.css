@@ -11,7 +11,7 @@
 }
 
 p{
-  line-height: 1.3rem;
+  line-height: 1.4rem;
 }
 .contact-addresses{
   color: hsl(112, 71%, 92%);
@@ -25,7 +25,12 @@ body{
     background-color: var(--bg-color);
 
 }
-.category a:link{   
+
+.postInfo ul li a{
+  color: var(--btn-color);
+}
+
+.category ul li a{
   color: var(--btn-color);
 }
  #showcase {
