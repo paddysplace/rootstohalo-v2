@@ -28,6 +28,7 @@ layout: page
 <p><a href="/archives.html">posts listed by category</a></p>-->
 
 <h2>Categories</h2>
+<div class="category">
     <ul>
     {% assign categories_list = site.categories %}
       {% if categories_list.first[0] == null %}
@@ -57,7 +58,7 @@ layout: page
         {% assign group = nil %}
       </ul>
     {% endfor %}
-
+  </div>
 <script>
   window.store = {
     {% for post in site.posts %}

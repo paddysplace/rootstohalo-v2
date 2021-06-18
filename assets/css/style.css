@@ -1,12 +1,13 @@
 :root {
-  --bg-color-h: 112;
-  --bg-color-s: 71%;
-  --bg-color-l: 92%;
-  --bg-color: hsl(var(--bg-color-h), var(--bg-color-s), var(--bg-color-l));
-  --btn-color-h: 112;
-  --btn-color-s: 24%;
-  --btn-color-l: 29%;
-  --btn-color: hsl(var(--btn-color-h), var(--btn-color-s), var(--btn-color-l));
+/* color palette */
+--btn-color: hsla(51, 85%, 26%, 1);
+--btn-color-hover: hsla(51, 85%, 15%, 1);
+--bg-color: hsla(112, 71%, 92%, 1);
+--accent-lg: hsla(36, 100%, 49%, 1);
+--accent-dk: hsla(19, 83%, 53%, 1);
+--links: hsla(201, 67%, 44%, 1);
+
+  
 }
 
 p{
@@ -22,9 +23,13 @@ p{
 
 body{
     background-color: var(--bg-color);
-}
 
-#showcase {
+}
+.category a:link{   
+  color: var(--btn-color);
+}
+ #showcase {
+ 
     background-image: url("../img/pexels-jeremy-bishop-2422916-01.jpg");
     background-size: cover;
     background-position: center;
@@ -48,7 +53,7 @@ body{
 .topnav a {
   float: left;
   display: block;
-  color: hsl(112, 24%, 29%);
+  color:var(--btn-color);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -64,6 +69,8 @@ body{
 
 a:hover{
 text-decoration-line: underline;
+
+
 
 }
 
@@ -155,7 +162,7 @@ text-decoration:none;
   }
 
   .footer-heading a:hover{
-    color: #fff;
+    color:var(--btn-color-hover);
     transition: ease-out;
 
   }
@@ -266,7 +273,7 @@ fieldset {
 }
 
 #contact button[type="submit"]:hover {
-	background:#09C;
+	background: var(--btn-color-hover);
 	-webkit-transition:background 0.3s ease-in-out;
 	-moz-transition:background 0.3s ease-in-out;
 	transition:background-color 0.3s ease-in-out;
@@ -292,7 +299,7 @@ fieldset {
 }
 
 .callToAction {
-  color: #F96;
+  color: var(--btn-color);
 }
 
 a:hover .callToAction{
@@ -371,8 +378,9 @@ a:hover .callToAction{
                   cursor: pointer;
                 }
 
-                .btn a:hover{
-                  color: #F96;
+                .btn:hover{
+                  color:var(--btn-color-hover);
+                  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 
                 
                 }
@@ -411,8 +419,16 @@ padding-top: 0px;
 .footer-container, .footer-container{
   display:flex;
   flex-direction: column;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
 }
+
 .footer{
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
   align-content: center;
   text-align: center;
 }
@@ -485,7 +501,6 @@ hr.footer-line {
   text-align: center;
   padding: 10px;
   line-height: 1.3rem;
-
 }
 
 
@@ -498,11 +513,34 @@ hr.footer-line {
   cursor: pointer;
 	background: var(--btn-color);
   padding: 5px 15px;
-  border-radius: 5px;
   margin: 10px auto;
   color: white;
+  text-decoration: none;
+  border: none;
 }
 
-.button a:hover{
-  color: #000000;
+.button:hover{
+  background-color: var(--btn-color-hover);
+  -webkit-transition:background 0.3s ease-in-out;
+	-moz-transition:background 0.3s ease-in-out;
+	transition:background-color 0.3s ease-in-out;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+
+
+.rssFeed,  a:link{
+text-decoration-color: var(--btn-color);
+color: var(--btn-color);
+}
+
+.insta,  a:link{
+  text-decoration-color: var(--btn-color);
+  color: var(--btn-color);
+  }
+
+
+
+.copyright{
+  color: #000;
 }
