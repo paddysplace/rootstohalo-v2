@@ -424,22 +424,15 @@ padding-top: 0px;
 }
 
 @media screen and (max-width: 600px) {
-.footer-container, .footer-container{
+.footer-container{
   display:flex;
   flex-direction: column;
   text-align: center;
-  padding: 0px;
-  margin: 0px;
+
+
 }
 
-.footer{
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  align-content: center;
-  text-align: center;
-}
+
 p{
   font-size: smaller ;
 }
@@ -549,11 +542,11 @@ color: var(--btn-color);
   color: var(--btn-color);
   }
 
-  .rssFeed ul li a{
+.rssFeed ul li a{
     color: var(--btn-color);
   }
   
-  .insta ul li a{
+.insta ul li a{
     color: var(--btn-color);
   }
 
