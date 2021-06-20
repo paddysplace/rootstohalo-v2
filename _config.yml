@@ -8,6 +8,10 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-admin
+  - jekyll-toc
+  - jekyll-seo-tag
+  - jekyll-archives
+
 excerpt_separator: <!--more-->
 disqus_shortname: rootstohalo
 
@@ -32,3 +36,13 @@ disqus_shortname: rootstohalo
 #   - vendor/ruby/
 
 talkyard_server_url: https://comments-demo.talkyard.io
+
+jekyll-archives:
+  enabled: []
+  layout: archive
+  permalinks:
+    year: '/:year/'
+    month: '/:year/:month/'
+    day: '/:year/:month/:day/'
+    tag: '/tag/:name/'
+    category: '/category/:name/'
