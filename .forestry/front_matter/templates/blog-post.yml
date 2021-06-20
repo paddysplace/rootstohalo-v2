@@ -22,8 +22,9 @@ fields:
     time_format: 
     display_utc: false
 - name: categories
-  type: tag_list
-  default: []
+  type: text
+  config:
+    required: false
   label: Categories
 pages:
 - _posts/2021-06-19-another-attempt.md
