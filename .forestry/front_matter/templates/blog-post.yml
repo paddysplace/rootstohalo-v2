@@ -25,5 +25,15 @@ fields:
   type: tag_list
   default: []
   label: Categories
+- name: post
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Post
+  description: 'Start writing your post '
 pages:
 - _posts/here-goes.md
