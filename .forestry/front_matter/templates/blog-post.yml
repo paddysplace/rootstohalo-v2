@@ -36,4 +36,4 @@ fields:
   label: Post
   description: 'Start writing your post '
 pages:
-- _posts/here-goes.md
+- _posts/2021-06-20-here-goes.md
