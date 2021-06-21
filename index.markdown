@@ -20,6 +20,8 @@ layout: default
 
   <ul>
     {% for post in site.posts limit:1 %}
+      {{ post.date | date_to_string }}
+<br>
      <h2> {{ post.title }}</h2>
       <p>{{post.content}}</p>
       <h3> <a href="{{ post.url }}#comment_thread"><p class="callToAction">click here to comment  <i class="fas fa-arrow-circle-right"></i></p>
