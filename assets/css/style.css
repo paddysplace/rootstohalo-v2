@@ -98,11 +98,11 @@ a:hover{
 	}
 }
 /* COMMENTS */
-#disqus_thread {
+#comment_thread {
 	color: black;
 	background-color: #e0f9dc;
 }
-#disqus_thread a {
+#comment_thread a {
 	color: #F96;
 }
 .latest-list{
@@ -129,7 +129,7 @@ ul{
 .footer-heading{
 	display: flex;
 	flex-direction: column;
-	width: 65%;
+	width: 85%;
 }
 .footer-heading h2{
 	margin-bottom: 0.5rem;
@@ -337,21 +337,58 @@ a:hover .callToAction{
 .active{
 	color: #F96;
 }
+
+/*FOOTER */
 .footer-container{
-	margin-top: 20px;
+	background: rgb(184,242,174);
+	background: linear-gradient(0deg, rgba(184,242,174,1) 0%, rgba(224,249,220,1) 100%);
+}
+.footer{
+	width: 100%;
+	height: 40vh;
 	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: 5px auto;
+}
+.footer-heading{
+	display: flex;
+	flex-direction: column;
+	width: 85%;
+}
+.footer-heading h2{
+	margin-bottom: 0.5rem;
+}
+.footer-heading a{
+	text-decoration: none;
+	margin-bottom: 0.2rem;
+	padding: 2px;
+}
+.footer-heading a:hover{
+	color:var(--btn-color-hover);
+	transition: ease-out;
+}
+
+.footer-container{
+	display: flex;
+	justify-content: center;
 }
 .footer{
 	line-height: 1.3rem;
+	align-items: center;
 }
 .footer-heading{
 	display: flex;
 }
 .footer-3{
-	padding: 0px;
 	width: 60%;
 	margin: auto;
 }
+
+.footer-2{
+	width: 75%;
+}
+
 .copyright{
 	padding-top: 20px;
 }
