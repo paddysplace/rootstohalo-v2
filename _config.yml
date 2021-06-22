@@ -35,14 +35,7 @@ disqus_shortname: rootstohalo
 #   - vendor/gems/
 #   - vendor/ruby/
 
-talkyard_server_url: https://comments-demo.talkyard.io
 
-jekyll-archives:
-  enabled: []
-  layout: archive
-  permalinks:
-    year: '/:year/'
-    month: '/:year/:month/'
-    day: '/:year/:month/:day/'
-    tag: '/tag/:name/'
-    category: '/category/:name/'
+talkyard_server_url: https://comments-for-www-fromrootstohalo-com.talkyard.net
+talkyard_script_url: https://c1.ty-cdn.net/-/talkyard-comments.min.js
+   
