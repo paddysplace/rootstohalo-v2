@@ -7,6 +7,10 @@
 	--accent-dk: hsla(19, 83%, 53%, 1);
 	--links: hsla(201, 67%, 44%, 1);
 }
+
+article{
+	scroll-behavior: smooth;
+}
 p{
 	line-height: 1.3rem;
 	text-indent: 20px;
