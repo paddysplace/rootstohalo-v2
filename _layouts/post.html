@@ -13,7 +13,7 @@ layout: default
     
 <article id="post-page" >
     {% include navigation.html %}
-    <h2>{{ page.title }}</h2><div><a href="#comment_thread" class="ty_NumCmts"><i class="far fa-comments"></i> comments</a></div>
+    <h2>{{ page.title }}</h2><div><a href="#comment_thread"><i class="far fa-comments" class="dw-cmts-count"></i> go to comments</a></div>
 
     <div class="postInfo">
         <ul>
@@ -87,5 +87,6 @@ layout: default
 <div id="comment_thread">{% include talkyard-comments.html %}
 </div>
 <!--END OF COMMENTS SECTION-->
+
 </body>
 </html>
