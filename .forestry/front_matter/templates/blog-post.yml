@@ -26,5 +26,9 @@ fields:
   config:
     required: false
   label: Categories
-pages:
-- _posts/2021-06-19-another-attempt.md
+- name: discussion
+  type: text
+  config:
+    required: false
+  label: discussion_id
+  description: Date and first word of post<br><br>e.g 2019-03-first_word
