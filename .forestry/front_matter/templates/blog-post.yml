@@ -35,4 +35,4 @@ fields:
   label: discussion_id
   description: Date and first word of post<br><br>e.g 2019-03-first_word
 pages:
-- _posts/what-s-it-like-to-be-a-capricorn.md
+- _posts/2021-07-10-what-s-it-like-to-be-a-capricorn.md
