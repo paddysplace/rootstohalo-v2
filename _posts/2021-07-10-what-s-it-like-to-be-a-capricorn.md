@@ -1,14 +1,14 @@
 ---
 layout: post
 title: What's it like to be a Capricorn?
-date: 2021-07-10 21:57:00 +0000
-categories: capricorn
+date: 2021-07-10T21:57:00.000+00:00
+categories: Capricorn Seagoat
 discussion: 2021-07-what's
 
 ---
 It's been a while, the posts I had in my head have stayed there. The subjects I was going to write about came and went. But here is one that I hadn't planned. Born out of the darkness of the New Moon in Cancer in opposition to my Capricorn Sun.
 
-The Sun was in Capricorn when I was born. I feel very deeply connected to my 'Zodiac' sign. Your sun sign I can best describe as your core essence, the inner you. Beneath the layers of skin and bone right at the very core lies a part of you, that's really you. When I find other Capricorns I feel they are my tribe, my herd, who I can go unnoticed with, mingling together as if we are one. They are the ones who understand me when the rest of the world misjudges. The ones who know my struggles as if they are their own. Capricorns are often disliked, it's difficult to really put into words why this is, but here is my attempt to do just that.
+The Sun was in Capricorn when I was born. I feel very deeply connected to my 'Zodiac' sign. Your sun sign I can best describe as your core essence, the inner you. Beneath the layers of skin and bone right at the very core lies a part of you, that's really you. When I find other Capricorns I feel they are my tribe, my herd, who I can go unnoticed with, mingling together as if we are one. They are the ones who understand me when the rest of the world misjudges. The ones who know my struggles as if they are their own. Capricorns are often disliked, it's difficult to really put into words why this is, but here is my attempt to do just that. <!--more-->
 
 When you look at the image of Capricorn sign, the Seagoat. We have half our body grounded in reality, climbing that never ending mountain. Yes we may butt heads with people but generally that because we're so honest and people prefer to take offence rather than see the truth. Sometimes we can't see the truth because we are tired from all that mountain climbing, and butting heads.
 
