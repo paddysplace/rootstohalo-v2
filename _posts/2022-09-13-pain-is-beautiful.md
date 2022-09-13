@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Pain Is Beautiful
-date: 
+date: 2022-09-13 16:00:00 +0100
 categories: pain healing
 discussion: ''
 
