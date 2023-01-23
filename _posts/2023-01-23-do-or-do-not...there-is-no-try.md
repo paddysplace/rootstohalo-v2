@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Do or Do Not...There is No Try
+title: Do or Do Not... There is No Try
 date: 2023-01-23 19:50:00 +0000
 categories: try fail failure change uranus
 discussion: ''
