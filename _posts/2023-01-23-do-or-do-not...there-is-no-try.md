@@ -10,7 +10,7 @@ So many of us are told as children that we have to try...and if we don't succeed
 
 Unfortunately this message throughout our childhoods has caused greater mental ill health across a generation. Because now, we are simply afraid of failure.
 
-And we shouldn't be afraid of failure..it's part of life. We need to accept failure. Not fear it. <!--more-->
+And we shouldn't be afraid of failure..it's part of life. We need to accept failure. Not fear it. <!--more--> 
 
 I've stayed in situations not meant for me because I've convinced myself I'm just not trying hard _enough._ "I just need to put in more effort". More of me. "The problem is obviously me, because other people succeed at this".
 
