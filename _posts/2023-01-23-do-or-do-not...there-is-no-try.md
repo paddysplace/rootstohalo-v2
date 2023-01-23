@@ -10,7 +10,7 @@ So many of us are told as children that we have to try...and if we don't succeed
 
 Unfortunately this message throughout our childhoods has caused greater mental ill health across a generation. Because now, we are simply afraid of failure.
 
-And we shouldn't be afraid of failure..it's part of life. We need to accept failure. Not fear it.
+And we shouldn't be afraid of failure..it's part of life. We need to accept failure. Not fear it. <!--more-->
 
 I've stayed in situations not meant for me because I've convinced myself I'm just not trying hard _enough._ "I just need to put in more effort". More of me. "The problem is obviously me, because other people succeed at this".
 
@@ -50,10 +50,6 @@ The best way to know ourselves, is to ask ourselves. Is this for me… or for th
 
 If it's what you think you should do. It won't ever work. Because you are basing your self worth on false direction. It's not being selfish or lazy to stop doing something that's failing. It's healthy to admit our flaws and that we are infallible. **It’s ok to fail**.
 
-  
-  
-  
-  
 **_The Astrology:_**
 
 For those interested in Astrology here the connection. Uranus has just gone direct. The planet of chaos, rebellion and freedom. For the last few months it has been in a retrograde motion, which means slowing down and appearing to go in the opposite direction as the earth moves faster. As with all retrogrades, this backwards motion gives us time to reflect and regroup. But once the retrograde is over its direct influence can be felt once more.
