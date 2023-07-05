@@ -4,7 +4,7 @@ layout: post
 date: '2023-07-05 21:11:00 +0000'
 categories: Sun Moon Mother Nature
 ---
-Today the Sun is conjunct (next to, aligned with) my natal moon in the nurturing, motherly receptive and emotional sign of Cancer.****
+Today the Sun is conjunct (next to, aligned with) my natal moon in the nurturing, motherly receptive and emotional sign of Cancer.
 
  To say it's been emotional is an understatement. Today I've had to advocate for the hysterectomy that I know I need. The decision itself was hard enough to face. But surprise surprise restrictions were put on me once again. I was told I wouldn't be granted the funding based on wants alone. Quote from the consultant “Every woman wants a hysterectomy, we can't give them to everyone”. But this isn't a want. This is a need. 25 years of suffering is enough. The follow up questions I had, she didn't answer. Even after 4 times coming back round to question about currently prescribed meds. All she could say is that they were for reducing the flow of my period. I said I haven't had an actual 'period' since January, just consistent bleeding that doesn't match with a monthly cycle. So why was I prescribed them? And when is it safe to take again?
 
