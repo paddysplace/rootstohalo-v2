@@ -1,5 +1,8 @@
 ---
-published: false
+published: true
+layout: post
+date: '2023-07-05 21:11:00 +0000'
+categories: Sun Moon Mother Nature
 ---
 Today the Sun is conjunct (next to, aligned with) my natal moon in the nurturing, motherly receptive and emotional sign of Cancer.****
 
